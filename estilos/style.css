@@ -64,7 +64,7 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 form > div.campo {
@@ -82,16 +82,20 @@ form label {
 div.campo > span {
     color: #184e70;
     font-size: 1.7em;
-    width: 35px;
-    padding: 5px;
+    width: 32px;
+    padding: 3px;
 }
 
 div.campo > input {
     font-size: 1em;
-    width: 70%;
+    width: 87%;
     height: 80%;
     border-radius: 5px;
     padding: 4px;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
