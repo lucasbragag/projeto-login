@@ -41,9 +41,15 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: cornflowerblue url('../imagens/pexels.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 50%;
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
 }
