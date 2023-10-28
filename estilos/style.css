@@ -79,6 +79,21 @@ form label {
     display: none;
 }
 
+div.campo > span {
+    color: #184e70;
+    font-size: 1.7em;
+    width: 35px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    padding: 4px;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
